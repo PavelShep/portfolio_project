@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 20, 2024 at 01:31 PM
+-- Generation Time: Dec 21, 2024 at 12:35 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -142,7 +142,6 @@ CREATE TABLE `portfolio` (
 
 INSERT INTO `portfolio` (`id`, `project_pic`, `project_type`, `project_name`, `project_link`) VALUES
 (1, 'portfolio-1.jpg', 'APP', 'Software Mongo', 'https://studio.youtube.com/video/MwBQy53OoDY/edit'),
-(4, '1608859275corona-5002341_1920.jpg', 'APP', 'CORONA STAT', 'https://www.hostinger.in/'),
 (5, '1734695203portfolio-4.jpg', 'PRODUCT', 'Wine', 'https://www.msn.com/pl-pl/pogoda/prognoza/in-Bia%C5%82a-Podlaska,Woj-Lubelskie?loc=eyJsIjoiQmlhxYJhIFBvZGxhc2thIiwiciI6IldvaiBMdWJlbHNraWUiLCJjIjoiUG9sc2thIiwiaSI6IlBMIiwiZyI6InBsLXBsIiwieCI6IjIzLjExOTM5NDMwMjM2ODE2NCIsInkiOiI1Mi4wMzM4NDAxNzk0NDMzNiJ9&weadegreetype=C&ocid=msedgntp&cvid=81e8d578a8664feca812ec5ed8e0bea0');
 
 -- --------------------------------------------------------
@@ -247,8 +246,7 @@ CREATE TABLE `skills` (
 INSERT INTO `skills` (`id`, `skill_name`, `skill_level`) VALUES
 (6, 'Photohsop', 81),
 (7, 'UX', 51),
-(8, 'UI', 51),
-(9, 'Agile', 51);
+(8, 'UI', 51);
 
 -- --------------------------------------------------------
 
@@ -416,7 +414,7 @@ ALTER TABLE `site_background`
 -- AUTO_INCREMENT for table `skills`
 --
 ALTER TABLE `skills`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `social_media`

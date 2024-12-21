@@ -405,9 +405,23 @@ $currentBackground = $row['background_img'] ?? 'corona.jpg';
 
     </div>
   </section><!-- End Contact Section -->
-
+  
   <div class="credits">
+
     Made by <a href="#">Pavel Shapialevich and Sviatoslav Kuchirka</a>
+
+    <!-- google translator -->
+    <div id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en', 
+                includedLanguages: 'en,pl,ru,uk',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   </div>
 
   <!-- Vendor JS Files -->
@@ -423,7 +437,6 @@ $currentBackground = $row['background_img'] ?? 'corona.jpg';
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
 </body>
 
 </html>
