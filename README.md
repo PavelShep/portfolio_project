@@ -1,8 +1,7 @@
 # Portfolio website with Admin Panel
 
 ## Project Description
-This project is a dynamic portfolio website designed to showcase skills, projects, and professional experience. 
-It features an **Admin Panel** that allows for seamless content management, enabling updates to the portfolio without modifying the code.  
+This project is a dynamic portfolio website designed to showcase skills, projects, and professional experience. It features an **Admin Panel** that allows for seamless content management, enabling updates to the portfolio without modifying the code, and includes a **live chat** feature for real-time communication with visitors 
 
 ### Screenshot
 ![Project Screenshot](https://raw.githubusercontent.com/PavelShep/PavelShep/main/uploads/portfolio_project.png)  
@@ -29,6 +28,10 @@ It features an **Admin Panel** that allows for seamless content management, enab
 ### Backend:
 - **PHP**: Server-side logic.  
 
+### Other:
+- **AdminLTE**: A responsive admin dashboard template
+- **Tawk.to**: a free live chat tool
+
 ---
 
 ## Installation and Setup
@@ -43,6 +46,7 @@ To run the project locally, follow these steps:
 3. Set up the database:
    - Import the myportfolio.sql file.
    - Update the database connection settings in db.php to match your local database configuration
+   - Signup / Login in [tawk.to](https://www.tawk.to/) and impliment Direct Chat Link to line 432 in index.php
 4. Start the server and database
 5. Access the application:
    - Portfolio Website: http://localhost:3000/portfolio_project

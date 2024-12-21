@@ -407,9 +407,6 @@ $currentBackground = $row['background_img'] ?? 'corona.jpg';
   </section><!-- End Contact Section -->
   
   <div class="credits">
-
-    Made by <a href="#">Pavel Shapialevich and Sviatoslav Kuchirka</a>
-
     <!-- google translator -->
     <div id="google_translate_element"></div>
     <script type="text/javascript">
@@ -422,7 +419,23 @@ $currentBackground = $row['background_img'] ?? 'corona.jpg';
         }
     </script>
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    Made by <a href="#">Pavel Shapialevich and Sviatoslav Kuchirka</a>
   </div>
+
+  <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+      var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+      s1.async=true;
+      s1.src='';
+      s1.charset='UTF-8';
+      s1.setAttribute('crossorigin','*');
+      s0.parentNode.insertBefore(s1,s0);
+    })();
+  </script>
+  <!--End of Tawk.to Script-->
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
