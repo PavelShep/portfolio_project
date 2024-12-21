@@ -10,6 +10,7 @@ It features an **Admin Panel** that allows for seamless content management, enab
 
 ![Project Screenshot](https://raw.githubusercontent.com/PavelShep/PavelShep/main/uploads/portfolio_project_admin.png)  
 *Example of the portfolio's Admin page.*  
+
 ---
 
 ## Features
