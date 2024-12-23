@@ -32,7 +32,7 @@ This project is a dynamic portfolio website designed to showcase skills, project
 ### Other:
 - **AdminLTE**: A responsive admin dashboard template
 - **Tawk.to**: A free live chat tool
-- ** Google Translate Widget **: Allows users to translate website content into different languages 
+- **Google Translate Widget**: Allows users to translate website content into different languages 
 ---
 
 ## Installation and Setup
