@@ -47,7 +47,7 @@ To run the project locally, follow these steps:
 3. Set up the database:
    - Import the myportfolio.sql file.
    - Update the database connection settings in db.php to match your local database configuration
-   - Signup / Login in [tawk.to](https://www.tawk.to/) and impliment Direct Chat Link to line 432 in index.php
+   - Signup / Login in [tawk.to](https://www.tawk.to/) and impliment line s1.src in Widget Code to line 432 in index.php
 4. Start the server and database (for example, by using Xammp)
 5. Access the application:
    - Portfolio Website: http://localhost:3000/portfolio_project
